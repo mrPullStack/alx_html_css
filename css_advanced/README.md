@@ -18,4 +18,4 @@ The Smile School website is a responsive and visually appealing platform that of
 
 - HTML
 - CSS
-- JavaScript (if needed)
+- JavaScript
