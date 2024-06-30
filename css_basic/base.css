@@ -1,0 +1,14 @@
+body.works_on_smartphone {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    main {
+        display: block;
+    }
+
+    article, aside {
+        flex: none;
+        width: 100%;
+    }
+}
