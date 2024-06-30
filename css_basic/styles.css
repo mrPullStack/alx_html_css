@@ -31,3 +31,37 @@ aside {
     padding: 1rem;
     background: #f9f9f9;
 }
+
+.logo {
+    font-size: 2rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    margin: 0 1rem;
+}
+
+header li.logo {
+    margin-right: auto;
+}
+
+footer p {
+    margin: 0;
+}
+
+article h2 {
+    color: #4CAF50;
+}
+
+article p {
+    line-height: 1.6;
+}
