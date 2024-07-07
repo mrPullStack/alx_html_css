@@ -1,4 +1,4 @@
-/* Global Styles */
+Global Styles
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,12 +8,176 @@ body {
 .bruce {
     border-radius: 50%;
 }
-.weather{
-    background-color: C271FF;
-    display: flexbox;
-    justify-content: space-around;
+
+.button {
+    /*width: 162px;
+    height: 44px;
+    top: 419px;
+    left: 639px;
+    gap: 0px;
+    opacity: 0px;
+    box-shadow: 0px 2px 20px 0px #00000080;
+    background: #c271ff;
+    border-radius: 30px;
+    color: #ffffff;
+    border: none;
+    */
+    display:inline-block;
+    color: white;
+    background-color: #b244ea;
+	font-size: 10px;
+	position: relative;
+    border-radius: 20px;
+    width: 150px;  
+    height: 40px;
+    position: relative;
+    top: 15px;
+    border: 0px solid black; /* Thin gray border */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* Subtle shadow */
+}
+.weather {
+    display: flex;
+    background-color: #C271FF; /* or any other color you prefer */
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    transform: translateY(-40px);
+    justify-content: center;
+    align-items: center;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33.6px;
+    margin-right: 50px;
+    padding-top: 120px;
+    padding: 20px;
+    margin-right: 50px;
+    margin-bottom: 40px; /* add some margin bottom for separation */
 }
 
+
+.weather img {
+    border-radius: 50%;
+    margin-left: 140px;
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    margin-right: 140px;
+}
+
+.weather h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.weather p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.most-popular-tutorials {
+    background-color: #fff;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.most-popular-tutorials div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.most-popular-tutorials div img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.most-popular-tutorials div h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.tutorials-container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.most-popular-tutorials div p {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.most-popular-tutorials div div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.most-popular-tutorials div div img {
+    width: 20px;
+}
+
+.most-popular-tutorials div div h4 {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 0.9em;
+}
+
+.most-popular-tutorials div button {
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.most-popular-tutorials div button:hover {
+    background-color: #e0b90f;
+}
+
+.most_popular-tutorials-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(25% - 40px); /* Adjust width and margin */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/*
+.tutorials-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+*/
+/*Ensure the section title is centered */
+/*
+.tutorials-container h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+*/
 
 b {
     color: C271FF;
@@ -56,14 +220,36 @@ nav ul li a {
 .header-section{
     background-image: url("./assets/images/Object.png");
     background-size: cover;
+    float: inherit;
     color: white;
     padding: 100px 20px;
     text-align: center;
 }
-
+span{
+    font-weight: bold;
+    padding-top: 50px;
+}
 .banner h1 {
     font-size: 3em;
     margin: 0;
+}
+
+h1 {
+    width: 684px;
+    white-space: nowrap;
+    gap: 0px;
+    opacity: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Source Sans Pro;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 150.84px;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    position: relative;
+    word-spacing: 40px;
 }
 
 .banner span {
