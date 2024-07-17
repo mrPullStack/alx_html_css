@@ -329,7 +329,7 @@ section p {
     padding: 15px;
 }
 
-/* faq styles */
+/* faq section */
 .faq{
     padding: 70px;
 }
@@ -365,24 +365,48 @@ gap: 30px;
     line-break: anywhere;
 }
 
-/* Footer Styles */
-footer {
-    background-color: #f8f8f8;
-    padding: 20px;
+/* Footer section */
+footer{
+    background: #071629;
+    padding: 70px;
+    position: relative;
+}
+
+footer section{
     text-align: center;
 }
 
-footer img {
-    max-width: 100px;
+footer .footer {
+    display: flex;
+    justify-content: space-around;
 }
 
-footer i {
-    font-size: 1.5em;
-    margin: 0 10px;
-    color: #333;
+footer .footer img{
+    width: 166px;
 }
 
-footer p {
-    margin: 0;
-    color: #666;
+footer .footer .footer-socials{
+    display: flex;
+    gap: 20px;
+}
+
+footer .footer .footer-socials i{
+    border: 50%;
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer section .copyright {
+    position: absolute;
+    left: 50%;
+    transform: (-50);
+    bottom: 20px;
+    font-style: normal;
+    color: white;
+    font-size: 12px;
 }
