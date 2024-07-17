@@ -278,6 +278,57 @@ section p {
     font-size: 1em;
 }
 
+/* section membership */
+.free-membership{
+    background: #071629;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* gap: 85px;
+    padding: 50px o;
+    height: 392px; */
+}
+.free-membership h2{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 32px;
+    color:#fff;
+}
+.free-membership h2 span {
+    color: #a855f7;
+}
+.free-membership .membership {
+    display: inline-block;
+    width: 15%;
+    margin: 25px;
+    text-align: center;
+}
+.free-membership .membership-container .membership img{
+    width: 33px;
+    margin-top: 10px;
+}
+.free-membership .membership-container .membership h3 {
+    color: #fff;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.free-membership .membership-container .membership p{
+    font-style: normal;
+    color: #fff;
+    line-height: 2rem;
+}
+.free-membership .btn{
+    background: #a855f7;
+    display: flex;
+    margin-bottom: 52px;
+    align-content: center;
+    justify-content:center;
+    border-radius: 30px;
+    color: #fff;
+    padding: 15px;
+}
+
 /* Footer Styles */
 footer {
     background-color: #f8f8f8;
