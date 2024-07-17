@@ -81,76 +81,76 @@ blockquote{
 
 .most_popular-tutorials-container {
     height: 100vh;
-  }
-  .most_popular-tutorials-container h2 {
+}
+.most_popular-tutorials-container h2 {
     text-align: center;
     font-size: 32px;
     padding: 80px 0;
-  
-  }
-  .most_popular-tutorials-container h2 span {
+
+}
+.most_popular-tutorials-container h2 span {
     color:#a855f7;
     font-weight: bold;
-  }
-  .tutorials-container {
+}
+.tutorials-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
-  }
-  
-  .most_popular-tutorials-container .most_popular-tutorials {
+}
+
+.most_popular-tutorials-container .most_popular-tutorials {
     width: 255px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: flex-start;
     position: relative;
-  }
-  .most_popular-tutorials-container .most_popular-tutorials h3{
+}
+.most_popular-tutorials-container .most_popular-tutorials h3{
     padding: 0 10px;
     font-weight: bold;
     font-size: 16px;
-  }
-  .most_popular-tutorials-container .most_popular-tutorials .playbtn{
+}
+.most_popular-tutorials-container .most_popular-tutorials .playbtn{
     position: absolute;
+    align-content: center;
     width: 64px;
-    top: 25%;
-    left: 50%;
+    top: 20%;
+    left: 56%;
     transform: translate(-50%, -50%);
-  }
-  .most_popular-tutorials-container .most_popular-tutorials p {
+}
+.most_popular-tutorials-container .most_popular-tutorials p {
     color: #071629;
     opacity: 50%;
     line-break: anywhere;
     font-style: normal;
-  }
-  .most_popular-tutorials-container .most_popular-tutorials .tutorials-lorem {
+}
+.most_popular-tutorials-container .most_popular-tutorials .tutorials-lorem {
     min-width: 90%;
     padding: 0 10px;
     color: gray;
-  }
-  .most_popular-tutorials-container .most_popular-tutorials .author {
+}
+.most_popular-tutorials-container .most_popular-tutorials .author {
     display: flex;
     padding: 0 10px;
     gap: 10px;
     align-items: center;
-  }
-  .most_popular-tutorials-container .most_popular-tutorials .author h4 {
+}
+.most_popular-tutorials-container .most_popular-tutorials .author h4 {
     font-weight: bold;
     font-size: 14px;
     color:#a855f7;
-  }
-  .most_popular-tutorials-container .most_popular-tutorials .author img {
+}
+.most_popular-tutorials-container .most_popular-tutorials .author img {
     width: 30px;
     border-radius: 30px;
-  }
-  .tutorials .tutorials-box img {
+}
+.tutorials .tutorials-box img {
     width: 100%;
-  }
-  
+} 
 
-  .most_popular-tutorials-container .most_popular-tutorials  .min    {
+.most_popular-tutorials-container .most_popular-tutorials  .min    {
     display: inline-flex;
     justify-content: space-between;
     align-content: right;
