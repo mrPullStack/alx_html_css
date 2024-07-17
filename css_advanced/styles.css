@@ -9,6 +9,10 @@ body {
     border-radius: 50%;
 }
 
+h2{
+    text-align: center;
+}
+
 .button {
     /*width: 162px;
     height: 44px;
@@ -45,7 +49,6 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Source Sans Pro;
-    font-size: 22px;
     font-weight: 400;
     line-height: 33.6px;
     margin-right: 50px;
@@ -54,11 +57,12 @@ body {
     margin-right: 50px;
     margin-bottom: 40px; /* add some margin bottom for separation */
 }
-
-
+blockquote{
+    margin: 0;
+    font-size: 21px;
+}
 .weather img {
     border-radius: 50%;
-    margin-left: 140px;
     width: 100px;
     height: 100px;
     margin-left: 200px;
@@ -75,109 +79,89 @@ body {
     margin-bottom: 20px;
 }
 
-.most-popular-tutorials {
-    background-color: #fff;
-    display: flex;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.3s;
-}
-
-.most-popular-tutorials div:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-}
-
-.most-popular-tutorials div img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
-}
-
-.most-popular-tutorials div h3 {
-    margin: 0;
-    margin-bottom: 10px;
-    font-size: 1.5em;
-}
-
-.tutorials-container{
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-.most-popular-tutorials div p {
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 0.9em;
-    color: #666;
-}
-
-.most-popular-tutorials div div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.most-popular-tutorials div div img {
-    width: 20px;
-}
-
-.most-popular-tutorials div div h4 {
-    margin: 0;
-    margin-left: 10px;
-    font-size: 0.9em;
-}
-
-.most-popular-tutorials div button {
-    background-color: #ffcc00;
-    color: #333;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.most-popular-tutorials div button:hover {
-    background-color: #e0b90f;
-}
-
 .most_popular-tutorials-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 10px;
-    width: calc(25% - 40px); /* Adjust width and margin */
-    box-sizing: border-box;
+    height: 100vh;
+  }
+  .most_popular-tutorials-container h2 {
     text-align: center;
-}
-
-/*
-.tutorials-container {
+    font-size: 32px;
+    padding: 80px 0;
+  
+  }
+  .most_popular-tutorials-container h2 span {
+    color:#a855f7;
+    font-weight: bold;
+  }
+  .tutorials-container {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-*/
-/*Ensure the section title is centered */
-/*
-.tutorials-container h2 {
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .most_popular-tutorials-container .most_popular-tutorials {
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .most_popular-tutorials-container .most_popular-tutorials h3{
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .most_popular-tutorials-container .most_popular-tutorials .playbtn{
+    position: absolute;
+    width: 64px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .most_popular-tutorials-container .most_popular-tutorials p {
+    color: #071629;
+    opacity: 50%;
+    line-break: anywhere;
+    font-style: normal;
+  }
+  .most_popular-tutorials-container .most_popular-tutorials .tutorials-lorem {
+    min-width: 90%;
+    padding: 0 10px;
+    color: gray;
+  }
+  .most_popular-tutorials-container .most_popular-tutorials .author {
+    display: flex;
+    padding: 0 10px;
+    gap: 10px;
+    align-items: center;
+  }
+  .most_popular-tutorials-container .most_popular-tutorials .author h4 {
+    font-weight: bold;
+    font-size: 14px;
+    color:#a855f7;
+  }
+  .most_popular-tutorials-container .most_popular-tutorials .author img {
+    width: 30px;
+    border-radius: 30px;
+  }
+  .tutorials .tutorials-box img {
     width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
+  }
+  
+
+  .most_popular-tutorials-container .most_popular-tutorials  .min    {
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: right;
+    margin-left: 101px;
+    color:#a855f7;
+    }
+.rating-container{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
 }
-*/
 
 b {
     color: C271FF;
