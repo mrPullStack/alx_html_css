@@ -105,17 +105,12 @@ nav {
 }
 
 /* what we do */
-.what-we--dos{
-    width: 637px;
-    height: 184px;
-    margin-top: 910px;
-    margin-left: 382px;
-}
 .what-we-do {
     background-color: #fff;
     color: #333;
     padding: 50px 20px;
     text-align: center;
+
 }
 
 .what-we-do h2 {
@@ -137,8 +132,8 @@ nav {
     flex-wrap: wrap;
     width: 1002px;
     height: 193px;
-    margin-top: 20px;
-    margin-left: 200px;
+    margin-top: 60px;
+    margin-left: 200.61px;
 }
 
 .service {
