@@ -170,7 +170,9 @@ b {
 header {
     padding: 20px;
 }
-
+.nav-bar{
+    color: #ffffff;
+}
 nav, .pros {
     display: flex;
     justify-content: space-between;
