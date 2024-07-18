@@ -15,6 +15,8 @@ header {
     background: url('../assets/images/headphones_hero_1.jpg') no-repeat center center/cover;
     padding: 20px 0;
     width: 1400px;
+    align-items: center;
+    justify-content: center;
     height: 800px;
 }
 
@@ -105,10 +107,14 @@ nav {
 }
 
 /* what we do */
+.what-we-dos{
+
+}
 .what-we-do {
     background-color: #fff;
     color: #333;
     padding: 50px 20px;
+    justify-content: center;
     text-align: center;
 
 }
@@ -118,12 +124,14 @@ nav {
     margin-bottom: 20px;
 }
 
-.what-we-do p {
+.what-we-dos p {
     font-size: 16px;
     margin-bottom: 40px;
-    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    width: 730px;
+    height: 104px;
+    padding: 0 20px;
 }
 
 .services {
@@ -143,7 +151,8 @@ nav {
 
 .service img {
     max-width: 100px;
-    margin-bottom: 10px;
+    height: 70px;
+    margin-bottom: 20px;
 }
 
 .service h3 {
