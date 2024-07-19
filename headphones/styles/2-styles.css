@@ -180,7 +180,6 @@ nav {
 }
 
 /* our results */
-/* Our results Section */
 .our-results {
     width: 1400px;
     height: 650px;
@@ -191,27 +190,35 @@ nav {
 }
 
 .our-results h2 {
+    margin-top: 100px;
     font-size: 28px;
     margin-bottom: 20px;
 }
 
 .our-results p {
+    margin-top: 50px;
     font-size: 16px;
     margin-bottom: 40px;
-    max-width: 600px;
-    margin-left: auto;
+    margin-left: 340px;
     margin-right: auto;
+    width: 730px;
+    height: 104px;
+    padding: 0 20px;
 }
 
 .results {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    width: 1010px;
+    height: 200px;
 }
 
 .result {
-    max-width: 150px;
     margin-bottom: 20px;
+    margin-top: 5px;
+    margin-right: -280px;
+
 }
 
 .result-icon {
