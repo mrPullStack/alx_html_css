@@ -178,3 +178,137 @@ nav {
         max-width: 100%;
     }
 }
+
+/* our results */
+.our-results {
+    width: 1400px;
+    height: 650px;
+    background: url('../assets/images/headphones_hero_2.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.our-results h2 {
+    margin-top: 100px;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.our-results p {
+    margin-top: 50px;
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin-left: 340px;
+    margin-right: auto;
+    width: 730px;
+    height: 104px;
+    padding: 0 20px;
+}
+
+.results {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1010px;
+    height: 200px;
+}
+
+.result {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-right: -280px;
+
+}
+
+.result-icon {
+    padding: 20px;
+    margin-bottom: 100px;
+    width: 190px;
+    height: 190px;
+}
+
+.result p {
+    font-size: 14px;
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+    .results {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .result {
+        max-width: 100%;
+    }
+}
+
+/* contact us */
+.contact-us {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.contact-us h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.contact-us form {
+    max-width: 335px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-us label {
+    font-size: 16px;
+    text-align: left;
+}
+
+.contact-us input,
+.contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contact-us input:focus,
+.contact-us textarea:focus {
+    border-color: #FF6565;
+    outline: none;
+}
+
+.contact-button {
+    background-color: #FF6565;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    max-width: 162px;
+    max-height: 44px;
+    border-radius: 30px;
+    /* margin-left: 219px; */
+}
+
+.contact-button:hover,
+.contact-button:active {
+    opacity: 0.9;
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+    .contact-us form {
+        width: 100%;
+    }
+}

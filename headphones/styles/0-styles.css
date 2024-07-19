@@ -59,7 +59,7 @@ nav {
     margin-left: 300px;
 }
 .hero-child{
-    margin-left: -1px;
+    margin-right: -180px;
 }
 
 .hero h1 {
@@ -82,7 +82,7 @@ nav {
     font-size: 14px;
     transition: opacity 0.3s;
     margin-top: 50px;
-    margin-left: 170px;
+    margin-left: 5px;
 }
 
 .hero-button:hover {
