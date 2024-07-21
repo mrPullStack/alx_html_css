@@ -323,7 +323,7 @@ footer {
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
     max-width: 1000px;
     margin: 0 auto;
@@ -334,11 +334,11 @@ footer {
     width: 100px;
 }
 
-.social-icons a {
+.fa-icons a {
     margin: 0 10px;
 }
 
-.social-icons img {
+.fa-icons img {
     width: 30px;
     filter: invert(100%);
 }
@@ -346,6 +346,14 @@ footer {
 footer p {
     margin: 0;
     color: #a1a1a1;
+}
+.fa-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 765px ;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 /* Responsive Styles */
