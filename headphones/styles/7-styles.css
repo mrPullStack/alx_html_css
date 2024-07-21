@@ -189,35 +189,11 @@ nav {
     height: 200px;
 }
 
-.pentagons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+.result {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-right: -280px;
 
-.pentagon {
-    width: 170px;
-    height: 120px;
-    background-color: #ff6565;
-    clip-path: polygon(50% 0%, 95% 35%, 77% 95%, 23% 95%, 5% 35%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-.pentagon span {
-    font-size: 1.5em;
-    padding: 22px;
-    font-weight: bold;
-}
-
-.pentagon p {
-    display: flex;
-    justify-content: center;
-    font-size: 0.9em;
-    margin: 0;
 }
 
 .result-icon {
